@@ -100,3 +100,182 @@ nav {
   border-radius: 50px;
   padding: 5px 0;
 }
+
+.root {
+  width: 99%;
+  height: 500px;
+  background: url("./img/bg-root.jpg");
+  background-size: cover;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.root .text {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 40%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1d3557;
+  font-size: 30px;
+}
+
+.root .text h1 span {
+  font-size: 26px;
+  color: #e13a4d;
+}
+
+.main-root {
+  width: 99%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+}
+
+/* ROW ONE CSS STYLE */
+
+.main-root .row1 {
+  width: 98%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-root .row1 .card1,
+.main-root .row1 .card2,
+.main-root .row1 .card3 {
+  background-color: #f1faee;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 18px rgba(160, 150, 105, 0.5);
+}
+
+.main-root .row1 .card1 img,
+.main-root .row1 .card2 img,
+.main-root .row1 .card3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.main-root .row1 .card1 p,
+.main-root .row1 .card2 p,
+.main-root .row1 .card3 p {
+  margin: 15px;
+  text-align: center;
+}
+
+/* ROW TWO CSS STYLE */
+
+.main-root .row2 {
+  width: 98%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-root .row2 .card1,
+.main-root .row2 .card2,
+.main-root .row2 .card3 {
+  background-color: #f1faee;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 18px rgba(160, 150, 105, 0.5);
+}
+
+.main-root .row2 .card1 img,
+.main-root .row2 .card2 img,
+.main-root .row2 .card3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.main-root .row2 .card1 p,
+.main-root .row2 .card2 p,
+.main-root .row2 .card3 p {
+  margin: 15px;
+  text-align: center;
+}
+
+/* ROW THREE CSS STYLE */
+
+.main-root .row3 {
+  width: 98%;
+  height: auto;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-root .row3 .card1,
+.main-root .row3 .card2,
+.main-root .row3 .card3 {
+  background-color: #f1faee;
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 18px rgba(160, 150, 105, 0.5);
+}
+
+.main-root .row3 .card1 img,
+.main-root .row3 .card2 img,
+.main-root .row3 .card3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.main-root .row3 .card1 p,
+.main-root .row3 .card2 p,
+.main-root .row3 .card3 p {
+  margin: 15px;
+  text-align: center;
+}
+
+/* BUTTONS */
+.main-root .row1 .buttons,
+.main-root .row2 .buttons,
+.main-root .row3 .buttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px 15px 20px 15px;
+}
+
+.main-root .row1 button,
+.main-root .row2 button,
+.main-root .row3 button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.main-root .row1 .order,
+.main-root .row2 .order,
+.main-root .row3 .order {
+  background-color: #1d3557;
+  color: white;
+}
+
+.main-root .row1 .viewdetail,
+.main-root .row2 .viewdetail,
+.main-root .row3 .viewdetail {
+  background-color: #e13a4d;
+  color: #f1faee;
+}
